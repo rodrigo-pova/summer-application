@@ -46,7 +46,7 @@ Para cada PR realize esse processo.
 
 Utilize como base a branch `exercise-one` deste repositório.
 
-*Neste exercício, continuaremos a implementação de funcionalidades na aplicação que criamos no conteúdo.*
+*Neste exercício, continuaremos a implementação de funcionalidades na aplicação que criamos ao longo da aula.*
 
 *Você deve renderizar um campo de input de texto para receber o nome da pessoa usuária e personalizar a mensagem para que ela seja, por exemplo, 'Hello, Fulano!', dependendo do nome que tiver sido escrito.*
 
@@ -56,18 +56,12 @@ Utilize como base a branch `exercise-one` deste repositório.
 
 #### Exercício 2
 
-Refaça o exercício 3 do dia 16.2, descrito abaixo. Assim como no exercício anterior, refatore a aplicação para utilizar Context API para gerenciar estado no lugar do Redux. Utilize como base a branch `exercise-two` deste repositório.
-
-_Nesse exercício utilizaremos os códigos dos exercícios 1 e 2. Aqui foi feita a junção dos reducers dos dois primeiros exercícios para que eles possam ser carregados juntos na mesma página da aplicação._
-
-_O funcionamento dos dois componentes DEVE se manter o mesmo._
-
-_Nesse exercício toda a estrutura de Redux já está pronta, você precisará refatorar a estrutura dele para Context API._
+Utilize como base a branch `exercise-two` deste repositório.
 
 ---
 
 #### BÔNUS: Exercício 3
 
-Refatore o exercício sobre o Reddit que está na branch `exercise-three` deste repositório. Mofique a aplicação para utilizar Context API para gerenciar o estado no lugar de Redux.
+Utilize como base a branch `exercise-three` deste repositório.
 
 ---
