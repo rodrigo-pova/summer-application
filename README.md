@@ -58,6 +58,10 @@ Utilize como base a branch `exercise-one` deste repositório.
 
 Utilize como base a branch `exercise-two` deste repositório.
 
+*Neste exercício, você usará o Context para prover informações de tema para o componente aninhado Button sem passá-las como prop através do componente Content.*
+
+*De início, o botão está sendo renderizado com o tema escuro, definido no objeto `themes` dentro de App.js. Você deve alterar a implementação do botão, de modo que, a cada clique, ele alterne entre os temas claro e escuro. Pressupondo que haveria muitos outros componentes que interagiriam com o tema da aplicação, ele deve ser armazenado no estado do componente App e provido através do Context.*
+
 ---
 
 #### BÔNUS: Exercício 3
