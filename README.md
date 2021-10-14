@@ -44,13 +44,13 @@ Para cada PR realize esse processo.
 
 #### Exercício 1
 
-Refaça o exercício 2 do dia 16.2, descrito abaixo, substituindo o Redux pela Context API para gerenciar o estado da aplicação. Utilize como base a branch `exercise-one` deste repositório.
+Utilize como base a branch `exercise-one` deste repositório.
 
-_Nesse exercício temos três carros com as cores Red, Blue e Yellow. Cada um deles apresenta um botão que ao ser clicado passa um estado para o Redux com um booleano._
+*Neste exercício, continuaremos a implementação de funcionalidades na aplicação que criamos no conteúdo.*
 
-_Esse estado irá ser utilizado para alterar o CSS com a imagem do carro, para que ele se mova ou não._
+*Você deve renderizar um campo de input de texto para receber o nome da pessoa usuária e personalizar a mensagem para que ela seja, por exemplo, 'Hello, Fulano!', dependendo do nome que tiver sido escrito.*
 
-_Nesse exercício toda a estrutura de Redux já está pronta. Utilize Context API em substituição ao Redux para armazenar todo o estado da aplicação._
+*Como a informação de nome da pessoa usuária não está relacionada ao idioma, convém que seja criado um novo Context para distribuir esta informação.*
 
 ---
 
