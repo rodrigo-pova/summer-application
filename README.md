@@ -8,10 +8,10 @@ Após feito o fork, clone o repositório criado para o seu computador.
 
 Rode o `npm install`.
 
-Vá para a branch master do seu projeto e execute o comando:
+Vá para a branch main do seu projeto e execute o comando:
 - `git branch`
 
-Verifique se as seguintes branchs apareceram:
+Verifique se as seguintes branches apareceram:
 
   `exercise-one`
   `exercise-two`
@@ -22,7 +22,7 @@ Verifique se as seguintes branchs apareceram:
 
 Observe o que deve ser feito nas instruções para cada exercício.
 
-Após a solução dos exercícios, abra um PR no seu repositório forkado e, se quiser, mergeie para a master, sinta-se a vontade!
+Após a solução dos exercícios, abra um PR no seu repositório forkado e, se quiser, mergeie para a main, sinta-se a vontade!
 
 **Atenção!** Quando for criar o PR você irá se deparar com essa tela:
 
