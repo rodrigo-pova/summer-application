@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const themes = {
+  light: {
+    foreground: '#000000',
+    background: '#ffffff',
+  },
+  dark: {
+    foreground: '#dddddd',
+    background: '#121212',
+  },
+};
+
+class App extends React.Component {
+  render() {
+    return(
+      <Content />
+    );
+  }
+}
+class Content extends React.Component {
+  render() {
+    return (
+      <Button />
+    )
+  }
+}
+
+class Button extends React.Component {
+  render() {
+    return (
+      <button
+        style={ {
+          color: themes.dark.foreground,
+          backgroundColor: themes.dark.background,
+        } }
+      >
+        🌞/🌚
+      </button>
+    );
+  }
 }
 
 export default App;
