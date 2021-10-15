@@ -68,7 +68,7 @@ Utilize como base a branch `exercise-two` deste repositório.
 
 Utilize como base a branch `exercise-three` deste repositório.
 
-*Neste exercício, você encontrará uma aplicação simples de contador com botões para incrementar ou diminuir a quantidade renderizada, implementada utilizando o Redux.*
+*Neste exercício, você encontrará uma aplicação simples de contador com botões para incrementar, diminuir e resetar a quantidade renderizada, implementada utilizando o Redux.*
 
 *Você deve refatorá-la para que use o Context, em vez do Redux, para gerenciar o estado global da aplicação.*
 
